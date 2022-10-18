@@ -1,19 +1,33 @@
 * {
-    background-color: #E5E5E5;
-    /*margin: 0;
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 /*Desktop*/
 
+body{
+    background-color: #E5E5E5;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.imagem_descricao{
+    margin-bottom: 33px;
+}
+
 .imagem_perfil {
-    position: absolute;
     box-sizing: border-box;
     width: 200px;
     height: 200px;
-    left: 612px;
-    top: 201px;
+
+    
 
     border: 2px solid #BB99DD;
 
@@ -23,11 +37,10 @@
 }
 
 .p_instagram {
-    position: absolute;
     width: 99px;
     height: 24px;
-    left: 669px;
-    top: 429px;
+
+    
 
     font-family: 'Poppins';
     font-style: normal;
@@ -41,20 +54,19 @@
     color: #BB99DD;
 }
 
-.link_00 {
-    justify-content: center;
+.links{
+    flex-direction: column;
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    gap: 6px;
-    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 68px;
 
+}
 
-    position: absolute;
+.link {
     width: 326px;
     height: 49px;
-    left: 556px;
-    top: 681px;
+
+    
 
     font-family: 'Poppins';
     font-style: normal;
@@ -77,140 +89,13 @@
     border-radius: 4px;
 }
 
-.link_1 {
-    position: absolute;
-    width: 326px;
-    height: 49px;
-    left: 556px;
-    top: 486px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    justify-content: center;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #BB99DD;
-
-    box-sizing: border-box;
-
-    border: 2px solid #BB99DD;
-    border-radius: 4px;
-}
-
-.link_1:hover {
-    transform: scale(1.1);
-}
-
-.link_2 {
-    position: absolute;
-    width: 326px;
-    height: 49px;
-    left: 556px;
-    top: 551px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    justify-content: center;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #BB99DD;
-
-    box-sizing: border-box;
-
-    border: 2px solid #BB99DD;
-    border-radius: 4px;
-}
-
-.link_2:hover {
-    transform: scale(1.1);
-}
-
-.link_3 {
-    position: absolute;
-    width: 326px;
-    height: 49px;
-    left: 556px;
-    top: 616px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    justify-content: center;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #BB99DD;
-
-    box-sizing: border-box;
-
-    border: 2px solid #BB99DD;
-    border-radius: 4px;
-}
-
-.link_3:hover {
-    transform: scale(1.1);
-}
-
-.link_4 {
-    position: absolute;
-    width: 326px;
-    height: 49px;
-    left: 556px;
-    top: 681px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    justify-content: center;
-    /* identical to box height */
-
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-
-    color: #BB99DD;
-
-    box-sizing: border-box;
-
-    border: 2px solid #BB99DD;
-    border-radius: 4px;
-}
-
-.link_4:hover {
+.link:hover {
     transform: scale(1.1);
 }
 
 .icones_svg_redesSociais {
-    position: absolute;
     width: 236px;
     height: 24px;
-    left: 601px;
-    top: 798px;
 
     justify-content: center;
     display: flex;
@@ -219,6 +104,5 @@
     gap: 29px;
     flex-wrap: wrap;
     align-items: center;
-    padding-bottom: 202px;
     color: #BB99DD;
 }
