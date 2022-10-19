@@ -30,7 +30,6 @@ main {
     border: 2px solid #BB99DD;
     border-radius: 50%;
     padding: 3px;
-
 }
 
 .p_instagram {
@@ -39,8 +38,6 @@ main {
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
-
     text-align: center;
     color: #BB99DD;
 }
@@ -50,16 +47,11 @@ main {
     display: flex;
     gap: 16px;
     margin-bottom: 68px;
-
 }
 
 .link {
     width: 326px;
-    height: 49px;
-
-    
-
-    font-family: 'Poppins';
+    height: 49px;font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -87,7 +79,6 @@ main {
 .icones_svg_redesSociais {
     width: 236px;
     height: 24px;
-
     justify-content: center;
     display: flex;
     flex-direction: column;
