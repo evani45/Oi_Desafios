@@ -1,0 +1,47 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+    --font-familyWS: 'Work Sans', sans-serif;
+    --font-familyLS: 'League Spartan', sans-serif;
+}
+
+main {
+    background-color: black;
+}
+
+.p1_atualize {
+    color: var(--title-color);
+    font-family: var(--font-familyWS);
+}
+
+.p2_precisaSaber{
+    color: var(--text-color);
+}
+
+.p3_noticias{
+    color: var(--text-color);
+}
+
+.p4_email{
+    color: var(--form-color);
+}
+
+.input_tEmail{
+    color: #6A6A6A;
+}
+
+.p5_link{
+    color: var(--bg-button-color);
+}
+
+.image_Submit {
+    background: var(--bg-button-color);
+}
+
+.div_esq {}
+
+/* font-family: 'League Spartan', sans-serif; */
+/* font-family: 'Work Sans', sans-serif; */
