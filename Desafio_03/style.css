@@ -8,7 +8,7 @@
     --font-familyLS: 'League Spartan', sans-serif;
 }
 
-*{
+* {
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -16,11 +16,15 @@
 main {
     background-color: black;
     padding-left: 30px;
+    display: flex;
+    flex-direction: row;
 }
 
+.div_esq{
+    margin-right: 30px;
+}
 
-
-header{
+header {
     margin-bottom: 92px;
     padding-top: 50px;
 }
@@ -33,7 +37,7 @@ header{
     margin-bottom: 9px;
 }
 
-.p2_precisaSaber{
+.p2_precisaSaber {
     color: var(--text-color);
     font-family: var(--font-familyLS);
     font-weight: bold;
@@ -41,21 +45,23 @@ header{
     margin-bottom: 9px;
 }
 
-.p3_noticias{
+.p3_noticias {
     color: var(--text-color);
     font-family: var(--font-familyLS);
     font-size: 14px;
     margin-bottom: 50px;
 }
 
-.p4_email{
+
+
+.p4_email {
     color: var(--form-color);
     font-family: var(--font-familyLS);
     font-size: 14px;
-    margin-bottom: 17px;
+    margin-bottom: 177px;
 }
 
-.input_tEmail{
+.input_tEmail {
     color: #6A6A6A;
     font-family: var(--font-familyWS);
     font-size: 12px;
@@ -66,19 +72,28 @@ header{
     border-bottom: none;
     border-top: none;
     border-right: none;
-    padding-left: 51px;
-    display: flex;
+    padding-left: 30px;
+    margin-top: 17px;
+    position: absolute;
 }
 
-.image_Submit{
-    padding: 24px;
+.image_Submit {
+    padding: 12px;
+    background: var(--bg-button-color);
+    position: sticky;
+    margin-left: 193%;
+    margin-top: 17px;
 }
 
-.p5_link{
+.p5_link {
     color: var(--bg-button-color);
     font-family: var(--font-familyLS);
 }
 
-.image_Submit {
-    background: var(--bg-button-color);
+@media only screen and (max-width: 419px) {
+    body {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+    }
 }
