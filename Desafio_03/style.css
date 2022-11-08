@@ -1,3 +1,4 @@
+/*
 :root {
     --body-bg-color: #121214;
     --text-color: #E1E1E6;
@@ -97,3 +98,128 @@ header {
         flex-direction: column;
     }
 }
+
+*/
+
+
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #e1e1e6;
+    --title-color: #04d361;
+    --form-color: #a8a8a8;
+    --bg-button-color: #8257e5;
+    --font-familyWS: "Work Sans", sans-serif;
+    --font-familyLS: "League Spartan", sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/veio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  img.image_logo {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .div_esq {
+    width: 40%;
+    background-color: black;
+    padding: 40px 60px 0 40px;
+  }
+  
+  .div_dir {
+    width: 60%;
+  }
+  
+  .div_dir img {
+    width: 100%;
+  }
+  
+  header {
+    margin-bottom: 92px;
+  }
+  
+  .p1_atualize {
+    color: var(--title-color);
+    font-family: var(--font-familyWS);
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+  
+  .p2_precisaSaber {
+    color: var(--text-color);
+    font-family: var(--font-familyLS);
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 9px;
+  }
+  
+  .p3_noticias {
+    color: var(--text-color);
+    font-family: var(--font-familyLS);
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+  
+  .p4_email {
+    color: var(--form-color);
+    font-family: var(--font-familyLS);
+    font-size: 14px;
+    margin-bottom: 177px;
+  }
+  
+  .input_tEmail {
+    color: #6a6a6a;
+    font-family: var(--font-familyWS);
+    font-size: 12px;
+  
+    width: 750px;
+    height: 48px;
+    border-left: 5px solid #04d361;
+    padding-left: 30px;
+  }
+  
+  .image_Submit {
+    padding: 11px;
+    background: var(--bg-button-color);
+  }
+  
+  .p5_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--bg-button-color);
+    font-family: var(--font-familyLS);
+  }
+  
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 11px 0 22px 0;
+    width: 800px;
+  }
+  
+  @media only screen and (max-width: 419px) {
+    body {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+    }
+  }
