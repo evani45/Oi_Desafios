@@ -33,7 +33,7 @@
   
   .div_esq {
     width: 40%;
-    background-color: black;
+    background-color: var(--body-bg-color);
     padding: 40px 60px 0 40px;
   }
   
@@ -112,9 +112,10 @@
     width: 800px;
   }
   
-  @media only screen and (max-width: 419px) {
+  
+  @media only screen and (min-width: 19px) {
     body {
-      background-color: black;
+      background-color: var(--body-bg-color);
       display: flex;
       flex-direction: column;
     }
